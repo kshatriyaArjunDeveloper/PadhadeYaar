@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="materialToolbarStyle" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <!-- Customize your theme here. -->
+        <item name="titleTextColor">@color/colorPrimary</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Toolbar</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Toolbar" parent="">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="expandedBarTextStyle" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name="collapsedBarTextStyle" parent="AppTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Button.Icon">
+        <item name="android:textColor">@color/colorB2</item>
+        <item name="fontFamily">@font/nunito_sans_bold</item>
+        <item name="backgroundTint">@color/colorWhite</item>
+        <item name="iconSize">24dp</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.FloatingActionButton" parent="Widget.Design.FloatingActionButton">
+        <item name="tint">@color/colorWhite</item>
+    </style>
+
+    <!-- FONTS -->
+
+    <style name="PoppinsB_B3">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/colorBICON</item>
+    </style>
+
+    <style name="PoppinsSB_B1_20">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/colorB1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="PoppinsR_B1_16">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/colorB1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PoppinsSB_BL_16">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PoppinsR_B2">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+        <item name="android:textColor">@color/colorB2</item>
+    </style>
+
+    <style name="PoppinsM_B1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/colorB1</item>
+    </style>
+
+    <style name="PoppinsM_B3">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/colorBICON</item>
+    </style>
+
+    <style name="PoppinsM_20">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="PoppinsM_B2">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/colorB2</item>
+    </style>
+
+    <style name="NunitoSansB_B2">
+        <item name="android:fontFamily">@font/nunito_sans_bold</item>
+        <item name="android:textColor">@color/colorB2</item>
+    </style>
+
+    <style name="NunitoSansB_W">
+        <item name="android:fontFamily">@font/nunito_sans_bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="PoppinsB_BL_20">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/colorBlueLight</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>

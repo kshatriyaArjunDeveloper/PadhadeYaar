@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3A7EC4</color>
+    <color name="colorPrimaryDark">#3A7EC4</color>
+    <color name="colorAccent">#00DECD</color>
+    <!-- FONT COLORS -->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorB1">#1A1A1A</color>
+    <color name="colorB2">#4D4D4D</color>
+    <color name="colorBICON">#737373</color>
+    <color name="colorBlueLight">#93C3F4</color>
+    <color name="colorBGWhite">#EDEDED</color>
+</resources>
