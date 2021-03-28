@@ -1,4 +1,4 @@
-package com.example.padadeyaarmad._1_onBoardings
+package com.example.padadeyaarmad._1_onBoardings.ui
 
 import android.content.Context
 import android.content.Intent
@@ -14,6 +14,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.example.padadeyaarmad.R
+import com.example.padadeyaarmad._1_onBoardings.viewmodels.ViewPagerFragmentViewModel
 import com.example.padadeyaarmad._2_authentication.AuthenticationActivity
 import com.example.padadeyaarmad.databinding.FragmentViewPagerBinding
 import com.example.padadeyaarmad.statusBarColorWhite
@@ -29,7 +30,7 @@ import com.example.padadeyaarmad.statusBarColorWhite
 class ViewPagerFragment : Fragment() {
 
     private lateinit var binding: FragmentViewPagerBinding
-    private lateinit var viewModel: OnBoardingViewModel
+    private lateinit var viewModel: ViewPagerFragmentViewModel
     private lateinit var viewPager2PageChangeCallback: ViewPager2.OnPageChangeCallback
 
     override fun onCreateView(
@@ -43,7 +44,7 @@ class ViewPagerFragment : Fragment() {
             R.layout.fragment_view_pager, container, false
         )
         // View Model
-        viewModel = ViewModelProvider(this).get(OnBoardingViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(ViewPagerFragmentViewModel::class.java)
 
         statusBarColorWhite(activity)
 
@@ -51,7 +52,8 @@ class ViewPagerFragment : Fragment() {
             OnBoardingScreenFragment(R.drawable.ic_sc1,viewModel.getText1list()[0],viewModel.getText2list()[0],viewModel.getText3list()[0]),
             OnBoardingScreenFragment(R.drawable.ic_om2,viewModel.getText1list()[1],viewModel.getText2list()[1],viewModel.getText3list()[1]),
             OnBoardingScreenFragment(R.drawable.ic_om3,viewModel.getText1list()[2],viewModel.getText2list()[2],viewModel.getText3list()[2]),
-            OnBoardingScreenFragment(R.drawable.ic_om4,viewModel.getText1list()[3],viewModel.getText2list()[3],viewModel.getText3list()[3]))
+            OnBoardingScreenFragment(R.drawable.ic_om4,viewModel.getText1list()[3],viewModel.getText2list()[3],viewModel.getText3list()[3])
+        )
 
         val adapter = ViewPagerAdapter(fragmentList, requireActivity().supportFragmentManager, lifecycle)
 
@@ -76,7 +78,6 @@ class ViewPagerFragment : Fragment() {
         }
 
         /** VIEW PAGER CALLBACKS FOR ANIMATING A.T.BOARDING SCREENS */
-
         viewPager2PageChangeCallback = object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 when (position) {

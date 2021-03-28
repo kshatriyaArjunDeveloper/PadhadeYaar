@@ -1,4 +1,4 @@
-package com.example.padadeyaarmad.mainApp
+package com.example.padadeyaarmad._3_mainApp
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

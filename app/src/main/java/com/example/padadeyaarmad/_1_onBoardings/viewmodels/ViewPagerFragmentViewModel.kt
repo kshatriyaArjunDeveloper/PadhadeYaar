@@ -1,8 +1,8 @@
-package com.example.padadeyaarmad._1_onBoardings
+package com.example.padadeyaarmad._1_onBoardings.viewmodels
 
 import androidx.lifecycle.ViewModel
 
-class OnBoardingViewModel : ViewModel() {
+class ViewPagerFragmentViewModel : ViewModel() {
 
     private val text1list = listOf<String>("Welcome to ","All Notes ","Standard Quality ","Last Night ")
     private val text2list = listOf<String>("PADADE YAAR","VERIFIED","MATERIAL","WARRIOR")

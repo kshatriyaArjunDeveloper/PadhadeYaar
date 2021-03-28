@@ -1,4 +1,4 @@
-package com.example.padadeyaarmad._1_onBoardings
+package com.example.padadeyaarmad._1_onBoardings.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

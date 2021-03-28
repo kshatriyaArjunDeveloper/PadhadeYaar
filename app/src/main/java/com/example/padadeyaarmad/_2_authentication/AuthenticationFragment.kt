@@ -10,10 +10,9 @@ import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import com.example.padadeyaarmad.R
 import com.example.padadeyaarmad.databinding.FragmentAuthenticationBinding
-import com.example.padadeyaarmad.mainApp.HomeActivity
+import com.example.padadeyaarmad._3_mainApp.HomeActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
