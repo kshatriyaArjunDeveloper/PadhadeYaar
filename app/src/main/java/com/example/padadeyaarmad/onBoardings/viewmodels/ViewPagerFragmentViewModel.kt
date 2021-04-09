@@ -1,4 +1,4 @@
-package com.example.padadeyaarmad._1_onBoardings.viewmodels
+package com.example.padadeyaarmad.onBoardings.viewmodels
 
 import androidx.lifecycle.ViewModel
 

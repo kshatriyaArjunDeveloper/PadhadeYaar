@@ -1,4 +1,4 @@
-package com.example.padadeyaarmad._1_onBoardings.ui
+package com.example.padadeyaarmad.onBoardings.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater

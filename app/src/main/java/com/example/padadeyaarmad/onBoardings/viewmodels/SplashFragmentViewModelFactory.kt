@@ -1,11 +1,9 @@
-package com.example.padadeyaarmad._1_onBoardings.viewmodels
+package com.example.padadeyaarmad.onBoardings.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.padadeyaarmad._0_repository.AuthRepository
-import com.example.padadeyaarmad._0_repository.FirebaseRepository
-import com.example.padadeyaarmad._0_repository.FirestoreRepository
-import java.lang.IllegalArgumentException
+import com.example.padadeyaarmad.repository.FirebaseRepository
+import com.example.padadeyaarmad.repository.FirestoreRepository
 
 class SplashFragmentViewModelFactory(private val firebaseRepository: FirebaseRepository, private val firestoreRepository: FirestoreRepository): ViewModelProvider.Factory {
 

@@ -1,4 +1,4 @@
-package com.example.padadeyaarmad._1_onBoardings.ui
+package com.example.padadeyaarmad.onBoardings.ui
 
 import android.content.Context
 import android.content.Intent
@@ -14,8 +14,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.example.padadeyaarmad.R
-import com.example.padadeyaarmad._1_onBoardings.viewmodels.ViewPagerFragmentViewModel
-import com.example.padadeyaarmad._2_authentication.AuthenticationActivity
+import com.example.padadeyaarmad.onBoardings.viewmodels.ViewPagerFragmentViewModel
+import com.example.padadeyaarmad.authentication.ui.AuthenticationActivity
 import com.example.padadeyaarmad.databinding.FragmentViewPagerBinding
 import com.example.padadeyaarmad.statusBarColorWhite
 

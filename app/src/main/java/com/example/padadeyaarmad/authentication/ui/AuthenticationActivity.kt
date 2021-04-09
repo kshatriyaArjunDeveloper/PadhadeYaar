@@ -1,12 +1,12 @@
-package com.example.padadeyaarmad._1_onBoardings.ui
+package com.example.padadeyaarmad.authentication.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.padadeyaarmad.R
 
-class MainActivity : AppCompatActivity() {
+class AuthenticationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_authentication)
     }
 }
